@@ -50,8 +50,10 @@ nav a:hover {
 
 /* Hero (faixa azul-escuro que você já tinha) */
 .hero {
-  background: linear-gradient(135deg,#0d1b2a,#1b263b);
-  color: #fff;
-  padding: 3rem 1rem;
-  text-align: center;
+  /* ——— texto branco no hero ——— */
+.hero,           /* todo o bloco */
+.hero * {        /* todos os elementos dentro dele */
+  color: #ffffff;   /* texto branco sólido */
+  fill:  #ffffff;   /* ícones SVG brancos */
+}
 }
